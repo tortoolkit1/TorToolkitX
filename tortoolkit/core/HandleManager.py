@@ -467,7 +467,7 @@ async def set_password_zip(message):
             await message.reply(f"Cannot update the password this is not your download.")
 
 async def start_handler(event):
-    msg = "<b>Hello This is TorToolkitX an instance of</b> <a href='https://github.com/KangersHub/TorToolkitX'>This Repo</a>. <b>Try the repo for yourself and dont forget to put a STAR and fork.</b>"
+    msg = "<b>Hello I Am An TorToolKit Mod Made By</b> <a href='https://telegram.me/pokemontamilmaster'>Pokemon Master</a>. <b>You Can Use Me On https://telegram.me/joinchat/WGkWtxmQYI0zMTZl.</b>"
     await event.reply(msg, parse_mode="html")
 
 def progress_bar(percentage):
