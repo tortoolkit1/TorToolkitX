@@ -467,7 +467,7 @@ async def set_password_zip(message):
             await message.reply(f"Cannot update the password this is not your download.")
 
 async def start_handler(event):
-    msg = "<b>Hello I Am An TorToolKit Mod Made By</b> <a href='https://telegram.me/pokemontamilmaster'>Pokemon Master</a>. <b>You Can Use Me On https://telegram.me/joinchat/WGkWtxmQYI0zMTZl.</b>"
+    msg = "<img src=\"https://github.com/tortoolkit1/TorToolkitX/blob/alpha/toolkit.jpg?raw=true\" alt=\"Pokemon Master\"><b>Hello I Am An TorToolKit Mod Made By</b> <a href='https://telegram.me/pokemontamilmaster'>Pokemon Master</a>. <b>You Can Use Me On <a href=\"https://telegram.me/joinchat/WGkWtxmQYI0zMTZl\">Public Torrent Leech Group</a>.</b>"
     await event.reply(msg, parse_mode="html")
 
 def progress_bar(percentage):
