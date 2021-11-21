@@ -2,9 +2,7 @@
 So basically Tortoolkit is aimed to be the most versatile torrent leecher and youtube-dl bot for telegram. This bot is highly customizable and to customize this bot you don't need to restart the bot every time. 
 The bot gets started with minimum variables and others can be set as and when needed using the /settings.
 
-## Use [Alpha](https://github.com/KangersHub/TorToolkitX/tree/alpha) branch if you want to try latest features.
-
-## For any help join this:- [KangersHub](https://t.me/KangersHubChat)
+## Use [Alpha](https://github.com/tortoolkit1/TorToolkitX/tree/alpha) branch if you want to try latest features.
 
 ## Whats new
 - MegaDL added
