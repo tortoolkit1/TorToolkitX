@@ -154,7 +154,7 @@ class UserDB(PostgresDB):
 
             self.ccur(cur)
 
-    def set_var(self, var, value, user_id):
+    def set_variable(self, var, value, user_id):
         user_id = str(user_id)
         sql = "SELECT * FROM ttk_users WHERE user_id=%s"
         # search the cache

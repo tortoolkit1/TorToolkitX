@@ -103,7 +103,7 @@ class UserDB(MongoDB):
             return None
             
 
-    def set_var(self, var, value, user_id):
+    def set_variable(self, var, value, user_id):
         user_id = str(user_id)
         db = self._db
         users = db.ttk_users
