@@ -702,11 +702,11 @@ async def set_thumb_cmd(e):
         os.remove(value)
     except:pass
 
-    user_db.set_var("DISABLE_THUMBNAIL",False, str(e.sender_id))
+    user_db.set_variable("DISABLE_THUMBNAIL",False, str(e.sender_id))
     await e.reply("Thumbnail set. try using /usettings to get more control. Can be used in private too.")
 
 async def clear_thumb_cmd(e):
-    user_db.set_var("DISABLE_THUMBNAIL",True, str(e.sender_id))
+    user_db.set_variable("DISABLE_THUMBNAIL",True, str(e.sender_id))
     await e.reply("Thumbnail disabled. Try using /usettings to get more control. Can be used in private too.")
 
 async def handle_user_settings_(message):
